@@ -1,10 +1,12 @@
 import React from 'react';
+import Display from './Display';
 import Button from './Button';
-import './ButtonPannel.css';
+import './Container.css';
 
 const buttonPannel = (props) => {
   return (
     <div className="container">
+      <Display></Display>
       <Button extraStyle='silver'>AC</Button>
       <Button extraStyle='silver'>+/-</Button>
       <Button extraStyle='silver'>%</Button>
