@@ -1,0 +1,8 @@
+.display {
+  grid-area: header;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
